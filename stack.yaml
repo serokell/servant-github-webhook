@@ -1,1 +1,5 @@
-resolver: lts-10.0
+resolver: nightly-2018-04-05
+
+extra-deps:
+- git: https://github.com/serokell/github
+  commit: 445f297649e1e887d76d637014bf8df32fd64762

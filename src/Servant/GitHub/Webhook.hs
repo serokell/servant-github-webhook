@@ -344,6 +344,12 @@ instance Reflect 'WebhookForkEvent where
 instance Reflect 'WebhookGollumEvent where
   reflect _ = WebhookGollumEvent
 
+instance Reflect 'WebhookInstallationEvent where
+  reflect _ = WebhookInstallationEvent
+
+instance Reflect 'WebhookInstallationRepositoriesEvent where
+  reflect _ = WebhookInstallationRepositoriesEvent
+
 instance Reflect 'WebhookIssueCommentEvent where
   reflect _ = WebhookIssueCommentEvent
 
